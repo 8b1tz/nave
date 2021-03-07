@@ -1,4 +1,4 @@
-<h3>Teste para entrar no Nave.rs</h3>
+<h3>Teste Nave.rs</h3>
 Nome: Yohanna de Oliveira Cavalcanti
 <ul>
   <li>para ver os códigos apenas precisa acessar o src, lá estará os exércicios do 1 até 10</li>

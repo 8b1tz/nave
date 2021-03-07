@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "nodemon src/restapi/index.js",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
   "devDependencies": {
     "@babel/core": "7.2.0",
+    "nodemon": "^2.0.7",
     "parcel-bundler": "^1.6.1"
   },
   "keywords": []

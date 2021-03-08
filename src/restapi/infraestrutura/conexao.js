@@ -1,5 +1,5 @@
 const mysql = require('mysql2')
-
+//conexao com o banco mysql
 const conexao = mysql.createConnection({
     host: 'localhost',
     port: 3306,

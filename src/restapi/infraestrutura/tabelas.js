@@ -6,12 +6,14 @@ class Tabelas{
         this.conexao = conexao
         this.criarNavers()
         this.criarProjects()
-        this.criarNaverProjects()
+        this.criarProjects_navers()
 
     }
-    
+
+//Criação das tabelas 
+
     criarNavers(){
-        const sql = `CREATE TABLE IF NOT EXISTS Navers (id int NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, 
+        const sql = `CREATE TABLE IF NOT EXISTS navers (id int NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, 
         job_role varchar(50), birthdate date NOT NULL, admission_date date NOT NULL, PRIMARY KEY(id))`
         this.conexao.query(sql, (erro) =>{
             if(erro){
@@ -24,7 +26,7 @@ class Tabelas{
     }
     
     criarProjects(){
-        const sql = `CREATE TABLE IF NOT EXISTS Projects (id int NOT NULL AUTO_INCREMENT, name varchar(50), PRIMARY KEY(id))`
+        const sql = `CREATE TABLE IF NOT EXISTS projects (id int NOT NULL AUTO_INCREMENT, name varchar(50), PRIMARY KEY(id))`
         this.conexao.query(sql, (erro) =>{
             if(erro){
                 console.log(erro)
@@ -35,14 +37,14 @@ class Tabelas{
         })
     }
 
-    criarNaverProjects(){
-        const sql = `CREATE TABLE IF NOT EXISTS NaverProjects (np_id int NOT NULL AUTO_INCREMENT, np_navers int, np_project int, PRIMARY KEY(np_id),FOREIGN KEY (np_navers) REFERENCES Navers (id),FOREIGN KEY (np_project) REFERENCES Projects (id))`
+    criarProjects_navers(){
+        const sql = `CREATE TABLE IF NOT EXISTS projects_navers (np_id int NOT NULL AUTO_INCREMENT, np_navers int, np_project int, PRIMARY KEY(np_id),FOREIGN KEY (np_navers) REFERENCES Navers (id),FOREIGN KEY (np_project) REFERENCES Projects (id))`
         this.conexao.query(sql, (erro) =>{
             if(erro){
                 console.log(erro)
             }
             else{
-                console.log('Tabela naverProjects criada com sucesso')
+                console.log('Tabela projects_navers criada com sucesso')
             }
         })
 

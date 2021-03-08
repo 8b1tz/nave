@@ -2,6 +2,8 @@ const moment = require('moment')
 const conexao = require('../infraestrutura/conexao')
 
 class Navers{
+
+    //Metodo para adicionar dados na tabelas.
     store(navers, res){
         const birthdate = moment(navers.birthdate ).format('YYYY-MM-DD HH:MM:SS')
         const admission_date = moment(navers.admission_date, 'YYYY-NN-SS' ).format('YYYY-MM-DD HH:MM:SS')
@@ -18,6 +20,7 @@ class Navers{
         })
     }
 
+    //Método para buscar todos os dados da tabela
     index(res){
         const sql = `SELECT * from navers `
 
@@ -30,8 +33,10 @@ class Navers{
             }
         })
     }
+
+    //Método pra buscar dado de id especifico
     show(id, res){
-        const sql = `SELECT n.id, n.name, n.birthdate, n.job_role, p.name as projects from navers n join naverprojects np on np.np_navers = n.id join projects p on p.id = np.np_project where n.id = ${id} `
+        const sql = `SELECT * from navers n where n.id = ${id} `
         
         conexao.query(sql,(erro, resultados)=> {
             if (erro){

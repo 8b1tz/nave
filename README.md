@@ -6,3 +6,7 @@ Nome: Yohanna de Oliveira Cavalcanti
 </ul>
 
 pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-forked-v2x9p?file=/src/exercise03.js
+<h3>Backend<h3>
+ <ul>
+   <li>para testar é recomendado usar o postman, existe url para utilizar GETS e POSTS, como por exemplo para criar as tabelas e listar as mesmas.</li>
+   <li>para montar a API utilizei a biblioteca express, e para o banco de dados foi utilizado MySql</li></ul>

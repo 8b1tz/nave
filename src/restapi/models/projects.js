@@ -29,7 +29,7 @@ class Projects{
         })
     }
     show(id, res){
-        const sql = `SELECT * from project where id = ${id} `
+        const sql = `SELECT p.id, p.name, n.name as naver from projects p join naverprojects np on np.np_project = p.id join navers n on n.id = np.np_navers where p.id = ${id} `
         
         conexao.query(sql,(erro, resultados)=> {
             if (erro){

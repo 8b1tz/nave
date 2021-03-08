@@ -12,7 +12,7 @@ class Tabelas{
     
     criarNavers(){
         const sql = `CREATE TABLE IF NOT EXISTS Navers (id int NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, 
-        job_role varchar(50), birthdate datetime NOT NULL, admission_date datetime NOT NULL, PRIMARY KEY(id))`
+        job_role varchar(50), birthdate date NOT NULL, admission_date date NOT NULL, PRIMARY KEY(id))`
         this.conexao.query(sql, (erro) =>{
             if(erro){
                 console.log(erro)

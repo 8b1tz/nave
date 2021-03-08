@@ -2,7 +2,7 @@ const moment = require('moment')
 const conexao = require('../infraestrutura/conexao')
 
 class Navers{
-    Store(navers, res){
+    store(navers, res){
         const birthdate = moment(navers.birthdate ).format('YYYY-MM-DD HH:MM:SS')
         const admission_date = moment(navers.admission_date, 'YYYY-NN-SS' ).format('YYYY-MM-DD HH:MM:SS')
         const SQLDatado ={...navers, birthdate, admission_date}

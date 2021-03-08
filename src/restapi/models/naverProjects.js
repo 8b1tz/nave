@@ -15,19 +15,6 @@ class NaverProjects{
             }
         })
     }
-    lista(res){
-        const sql = `SELECT p.id, p.name from navers n join naverprojects np on n.id = np_navers join 
-        projects p on p.id = np_project `
-
-        conexao.query(sql,(erro, resultados)=> {
-            if (erro){
-                res.status(400).json(erro)
-            }
-            else{
-                res.status(200).json(resultados)
-            }
-        })
-    }
 }
 
 module.exports = new NaverProjects()

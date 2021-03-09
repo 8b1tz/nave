@@ -13,4 +13,9 @@ module.exports = app => {
         Projects.store(projects, res)
 
     })
+    app.delete('/projects/:id', (req, res) => {
+        const id = parseInt(req.params.id)
+
+        Projects.deleta(id, res)
+    })
 }

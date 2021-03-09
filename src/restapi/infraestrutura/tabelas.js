@@ -7,7 +7,6 @@ class Tabelas{
         this.criarNavers()
         this.criarProjects()
         this.criarProjects_navers()
-
     }
 
 //Criação das tabelas 
@@ -47,8 +46,6 @@ class Tabelas{
                 console.log('Tabela projects_navers criada com sucesso')
             }
         })
-
     }
-   
 }
 module.exports = new Tabelas

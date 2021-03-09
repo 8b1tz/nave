@@ -19,7 +19,7 @@ pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-fork
 <li><b>Index</b>: Devolve todos os projetos, se utilizar o postman necessita utilizar a url localhost:(porta)/projects, poré m utilizando o método <b>GET</b></li>
 <li><b>Show</b>: Devolve um projeto de ID especifico, se utilizar o post necessita usar a url localhost:(porta)/projects/(id do projeto que você quer o retorno), utilizando método <b>GET</b></li>
 <li><b>Delete</b>:</li> Deleta um projeto que tenha o ID do especifico, se utilizar o postman necessita da url localhost:(porta)/projects/(id do projeto no qual você quer deletar), utilizando o método <b>DELETE</b></li>
-</ul>
+
 
 <h3>Navers:</h3>
 <ul>
@@ -33,6 +33,7 @@ pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-fork
 <h3>Projects_navers</h3>
 <ul>
 <li>Tabela criada para ligar os navers com os projetos, apenas contém o método de inseri, utilizando a url localhost:(porta)/projects_navers, utilizando método <b>POST</b></li>
+</ul>
 
 <hr>
 <h3>Dificuldades:</h3>

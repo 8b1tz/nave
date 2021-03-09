@@ -10,8 +10,8 @@ pode ver o código em funcionamento do desafio (APENAS OS EXERCICIOS DE 1 A 10) 
 <h2>Desafio Backend:</h2>
  <ul>
    <li>para testar é recomendado usar o <b>postman</b>, existe url para utilizar GETS e POSTS, como por exemplo para criar as tabelas e listar as mesmas.</li>
-   <li>para montar a API utilizei a biblioteca <b>express</b>, e para o banco de dados foi utilizado <b>MySql.</b></li></ul>
-
+   <li>para montar a API utilizei a biblioteca <b>express</b>, e para o banco de dados foi utilizado <b>MySql.</b></li>
+</ul>
 <h3>Projects:</h3>
 <ul>
 <b><h4>Métodos:</h4></b>
@@ -45,4 +45,4 @@ pode ver o código em funcionamento do desafio (APENAS OS EXERCICIOS DE 1 A 10) 
 <li>Necessário no árquivo conexao dentro da pasta infraestrutura colocar os dados do seu banco, pois dados diferentes podem acarretar erros. </li>
 <li>Todos os arquivos da parte de backend se localizam dentro da pasta <b>restapi.</b></li>
 </ul>
-![image](https://user-images.githubusercontent.com/53948477/110538855-4a844700-8103-11eb-8b26-d6fd0077655c.png)
+

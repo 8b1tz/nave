@@ -4,10 +4,9 @@
 <h2>Desafio</h2>
 <ul>
   <li>para ver os códigos apenas precisa acessar o src, lá estará os exércicios do 1 até 10</li>
-  <li>para a execução apenas é necessário fazer download por DESKTOP ou um git clone e verificar em um navegador com a ferrmenta de desenvolvedor e verificando o console.
 </ul>
+pode ver o código em funcionamento do desafio (APENAS OS EXERCICIOS DE 1 A 10) no site: https://codesandbox.io/s/teste-estagio-template-forked-v2x9p?file=/src/exercise03.js
 
-pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-forked-v2x9p?file=/src/exercise03.js
 <h2>Desafio Backend</h2>
  <ul>
    <li>para testar é recomendado usar o <b>postman</b>, existe url para utilizar GETS e POSTS, como por exemplo para criar as tabelas e listar as mesmas.</li>

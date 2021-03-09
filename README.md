@@ -34,11 +34,15 @@ pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-fork
 <h3>Projects_navers</h3>
 <ul>
 <li>Tabela criada para ligar os navers com os projetos, apenas contém o método de inseri, utilizando a url localhost:(porta)/projects_navers, utilizando método <b>POST</b></li>
+</ul>
 
 <hr>
 <h3>Dificuldades:</h3>
+<ul>
 <li>Tive dificuldades pois não sou acostumada a utilizar as bibliotecas que utilizei, tive que pesquisar a maioria das coisas.</li>
-
+</ul>
 <h2>ATENÇÃO!!</h3>
+<ul>
 <li>Necessário no árquivo conexao dentro da pasta infraestrutura colocar os dados do seu banco, pois dados diferentes podem acarretar erros. </li>
 <li>Todos os arquivos da parte de backend se localizam dentro da pasta <b>restapi</b></li>
+</ul>

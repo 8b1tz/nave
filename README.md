@@ -45,3 +45,4 @@ pode ver o código em funcionamento do desafio (APENAS OS EXERCICIOS DE 1 A 10) 
 <li>Necessário no árquivo conexao dentro da pasta infraestrutura colocar os dados do seu banco, pois dados diferentes podem acarretar erros. </li>
 <li>Todos os arquivos da parte de backend se localizam dentro da pasta <b>restapi.</b></li>
 </ul>
+![image](https://user-images.githubusercontent.com/53948477/110538855-4a844700-8103-11eb-8b26-d6fd0077655c.png)

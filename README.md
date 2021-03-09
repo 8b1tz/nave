@@ -40,5 +40,3 @@ pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-fork
 <h2>ATENÇÃO!!</h3>
 <li>Necessário no árquivo conexao dentro da pasta infraestrutura colocar os dados do seu banco, pois dados diferentes podem acarretar erros. </li>
 <li>Todos os arquivos da parte de backend se localizam dentro da pasta <b>restapi</b></li>
-
-<center><img src=”https://user-images.githubusercontent.com/53948477/110412747-72c06700-806b-11eb-9aaf-00464d4dce6a.png” height=”200” width=”200”></center>

@@ -28,9 +28,10 @@ class Projects{
             }
         })
     }
-    //Método para ver um projeto especifico
+    //Método para ver um projeto especifico que tenha navers
     show(id, res){
-        const sql = `SELECT * from projects p where p.id = ${id} `
+        const sql = `SELECT p.id, p.name, n.name as naver
+         from navers n join projects_navers np on np.np_navers = n.id join projects p on p.id = np.np_project where np.np_navers = ${id} `
         
         conexao.query(sql,(erro, resultados)=> {
             if (erro){
@@ -41,18 +42,7 @@ class Projects{
             }
         })
     }
-    //Método para deletar projeto pelo ID
-    deleta(id, res) {
-        const sql = 'DELETE FROM projects WHERE id=?'
-
-        conexao.query(sql, id, (erro, resultados) => {
-            if(erro) {
-                res.status(400).json(erro)
-            } else {
-                res.status(200).json({resultados})
-            }
-        })
-    }
+    
 }
 
 

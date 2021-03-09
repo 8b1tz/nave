@@ -6,4 +6,7 @@ module.exports = app => {
         Project_navers.store(projects_navers, res)
 
     })
+    app.get('/projects_navers', (req, res) => {
+        Project_navers.index(res)
+    })
 }

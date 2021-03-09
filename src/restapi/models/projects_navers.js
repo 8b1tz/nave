@@ -16,6 +16,19 @@ class Projects_navers{
             }
         })
     }
+    //Método que mostra os ids ligados entre navers e projects
+    index(res){
+        const sql = `SELECT * from projects_navers `
+
+        conexao.query(sql,(erro, resultados)=> {
+            if (erro){
+                res.status(400).json(erro)
+            }
+            else{
+                res.status(200).json(resultados)
+            }
+        })
+    }
 }
 
 module.exports = new Projects_navers()

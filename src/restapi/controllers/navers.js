@@ -14,10 +14,4 @@ module.exports = app => {
         Navers.store(navers, res)
 
     })
-    app.delete('/navers/:id', (req, res) => {
-        const id = parseInt(req.params.id)
-
-        Navers.deleta(id, res)
-    })
-
 }

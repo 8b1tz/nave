@@ -14,7 +14,7 @@ pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-fork
    <li>para montar a API utilizei a biblioteca <b>express</b>, e para o banco de dados foi utilizado <b>MySql</b></li></ul>
 
 <h3>Projects : </h3>
-<ul>Métodos: 
+<li><b><h4>Métodos</h4></b>:</li> 
 <li><b>Store</b>: Insere itens na tabela, se utilizar o postman necessita ir usar a url localhost:(porta)/projects, utilizando o método <b>POST</b></li>
 <li><b>Index</b>: Devolve todos os projetos, se utilizar o postman necessita utilizar a url localhost:(porta)/projects, poré m utilizando o método <b>GET</b></li>
 <li><b>Show</b>: Devolve um projeto de ID especifico, se utilizar o post necessita usar a url localhost:(porta)/projects/(id do projeto que você quer o retorno), utilizando método <b>GET</b></li>
@@ -22,7 +22,8 @@ pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-fork
 </ul>
 
 <h3>Navers</h3>
-<ul>Métodos: 
+<ul>
+<li><b><h4>Métodos</h4></b>:</li> 
 <li><b>Store</b>: Insere itens na tabela, se utilizar o postman necessita ir usar a url localhost:(porta)/navers, utilizando o método <b>POST</b></li>
 <li><b>Index</b>: Devolve todos os navers, se utilizar o postman necessita utilizar a url localhost:(porta)/navers, poré m utilizando o método <b>GET</b></li>
 <li><b>Show</b>: Devolve um navers de ID especifico, se utilizar o post necessita usar a url localhost:(porta)/navers/(id do naver que você quer o retorno), utilizando método <b>GET</b></li>

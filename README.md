@@ -37,5 +37,6 @@ pode ver o código no site: https://codesandbox.io/s/teste-estagio-template-fork
 <h2>Dificuldades:</h2>
 <li>Tive dificuldades pois não sou acostumada a utilizar as bibliotecas que utilizei, tive que pesquisar a maioria das coisas.</li>
 
-<h2><font color="red">ATENÇÃO!!</font></h3>
+<h2>ATENÇÃO!!</h3>
 <li>Necessário no árquivo conexao dentro da pasta infraestrutura colocar os dados do seu banco, pois dados diferentes podem acarretar erros. </li>
+<li>Todos os arquivos da parte de backend se localizam dentro da pasta <b>restapi</b></li>
